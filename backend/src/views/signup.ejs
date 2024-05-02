@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sign up</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="/style.css">
+
+</head>
+
+<body>
+    <section class="ftco-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 text-center mb-5">
+                    <h2 class="heading-section">Sign Up</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-7 col-lg-5">
+                    <div class="login-wrap p-4 p-md-5">
+                        <div class="icon d-flex align-items-center justify-content-center">
+                            <span class="fa fa-user-o"></span>
+                        </div>
+                        <h3 class="text-center mb-4">Create an Account</h3>
+                        <form action="/signup" class="login-form" method="post">
+                            <div class="form-group">
+                                <input type="text" id="uname" class="form-control rounded-left" placeholder="Username"
+                                    name="uname" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control rounded-left" placeholder="Password"
+                                    name="password" id="password" required>
+                            </div>
+                            <!-- Adding suggestion box input field -->
+                            <div class="form-group">
+                                <label for="inputType">Select Class:</label>
+                                <select id="inputType" name="inputType" class="form-control rounded-left">
+                                    <option value="Thamheediyya 1">Thamheediyya 1</option>
+                                    <option value="Thamheediyya 2">Thamheediyya 2</option>
+                                    <option value="Aliya 1">Aliya 1</option>
+                                    <option value="Aliya 2">Aliya 2</option>
+                                    <option value="Aliya 3">Aliya 3</option>
+                                    <option value="Aliya 4">Aliya 4</option>
+                                    <!-- Add more options as needed -->
+                                </select>
+                            </div>
+                            <!-- End of suggestion box input field -->
+                            <div class="form-group">
+                                <button type="submit" class="form-control btn btn-primary rounded submit px-3">Sign
+                                    up</button>
+                            </div>
+                            <div class="form-group d-md-flex">
+                                <div class="w-50">
+                                    <label class="checkbox-wrap checkbox-primary">Remember Me
+                                        <input type="checkbox" checked>
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                                <div class="w-50 text-md-right">
+                                    <a href="#">Forgot Password</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="/jquery.min.js"></script>
+    <script src="/popper.js"></script>
+    <script src="/bootstrap.min.js"></script>
+    <script src="/main.js"></script>
+
+</body>
+
+</html>
